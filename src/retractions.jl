@@ -419,7 +419,7 @@ Describes an inverse retraction that is based on the softmax function.
 struct SoftmaxInverseRetraction <: AbstractInverseRetractionMethod end
 
 """
-    StabilizedInveerseRetraction <: AbstractInverseRetractionMethod
+    StabilizedInverseRetraction <: AbstractInverseRetractionMethod
 
 An inverse retraction wraps another inverse retraction and projects
 the resulting tangent vector onto the corresponding tangent space for numerical stability.
